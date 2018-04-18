@@ -1,0 +1,442 @@
+@font-face {
+    font-family: Brandon_med;
+    src: url(../fonts/Brandon_med.otf);
+}
+@font-face {
+    font-family: Brandon_bld;
+    src: url(../fonts/Brandon_bld.otf);
+}
+@font-face {
+    font-family: Brandon_light;
+    src: url(../fonts/Brandon_light.otf);
+}
+@font-face {
+    font-family: Brandon_reg;
+    src: url(../fonts/Brandon_reg.otf);
+}
+
+
+body{
+    font-family: Brandon_reg;
+}
+.common-div{
+    position: relative;
+    overflow: hidden;
+    padding: 70px 0;
+}
+.headline{
+    font-size: 60px;
+    font-family: Brandon_light;
+    margin-bottom: 40px;
+}
+.headline span{
+    font-family: Brandon_bld;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/*===== header start ====*/
+
+.header {
+     position: relative;
+    overflow: hidden;
+    padding: 40px 0;
+    height: 40rem;
+    background: url('../images/1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 2;
+}
+
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #383838;
+    opacity: .4;
+    z-index: -2;
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light.navbar-fixed-top.menu {
+    background: transparent !important;
+}
+
+.navbar-nav.nav-pills.mr-auto.ul {
+    position: absolute;
+    right: 0;
+}
+
+.nav-item.li {
+    padding: 0px 15px;
+}
+
+.nav-item.active.li {
+    background: transparent;
+    border-radius: 0;
+    position: relative;
+    border-bottom: 1px solid #fff;
+    transition: .5s;
+}
+
+.nav-link.a {
+    color: #fff !important;
+    font-family: Brandon_med;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 5px 20px;
+    
+}
+
+.header .content {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    min-width: 60%;
+    height: auto;
+}
+
+.header .content h3{
+    font-size: 32px;
+    font-family: Brandon_light;
+}
+.header .content h1{
+    font-size: 66px;
+    font-family: Brandon_bld;
+}
+.header .content button{
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    text-transform: capitalize;
+    font-size: 23px;
+    padding: 10px 30px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: Brandon_bld;
+}
+
+
+/*===== header end ====*/
+
+/*===== services start ====*/
+
+#services p{
+    font-size: 18px;
+    line-height: 25px;
+    color: #847474;
+}
+#services p:last-child{
+    margin-bottom: 0;
+}
+#services img{
+    width: 60% !important;
+    float: right;
+}
+
+.identity{
+    background: #FAFAFA;
+}
+
+#services .identity img{
+    width: 60% !important;
+    float: left;
+}
+
+
+/*===== services end ====*/
+
+/*===== services catagory start ====*/
+
+#catagory .content{
+    overflow:hidden;
+    margin: 35px 0;
+}
+
+#catagory .icon{
+    background: #222222;
+    color: #fff;
+    font-size: 45px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 7px;
+    overflow: hidden;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+#catagory .text{
+    overflow: hidden;
+    margin-left: 100px;
+}
+#catagory .text h5{
+    font-size: 22px;
+    font-family: Brandon_med;
+    margin-bottom: 12px;
+}
+#catagory .text p{
+    font-size: 18px;
+    margin-bottom: 0;
+    color: #847474;
+    line-height: 26px;
+    padding-right: 0rem;
+}
+ 
+/*===== services catagory end ====*/
+
+/*===== clients start ====*/
+
+#clients{
+    background: #FAFAFA;
+    padding: 60px 0px;
+}
+#clients .headline{
+    margin-bottom: 0;
+}
+#clients p{
+    font-size: 22PX;
+    color: #847474;
+    margin-bottom: 50px;
+}
+#clients .image{
+    background: #111111;
+    width: 85%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+#clients .text,
+#clients .text2{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+    width: 90%;
+    margin-top: 40px;
+    margin-left: 25px;
+    border: 1px solid #e4e4e4;
+}
+#clients .text:before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -5px;
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-top: 1px solid #e4e4e4;
+    border-left: 1px solid #e4e4e4;
+    transform: rotate(-45deg) translateY(-50%);
+    -moz-transform: rotate(-45deg) translateY(-50%);
+    -webkit-transform: rotate(-45deg) translateY(-50%);
+    -ms-transform: rotate(-45deg) translateY(-50%);
+}
+
+#clients .content {
+    margin-top: 35px;
+}
+
+#clients .text2:before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -26px;
+    width: 30px;
+    height: 30px;
+    background: white;
+    border: none;
+    border-bottom: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+    transform: rotate(-45deg) translateY(-50%);
+    -moz-transform: rotate(-45deg) translateY(-50%);
+    -webkit-transform: rotate(-45deg) translateY(-50%);
+    -ms-transform: rotate(-45deg) translateY(-50%);
+}
+#clients .text h4,
+#clients .text2 h4
+{
+    color: #a4a0a0;
+    font-family: Brandon_reg;
+}
+#clients .text h5,
+#clients .text2 h5{
+    color: #7690C5;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+/*===== clients end ====*/
+
+/*===== partner start ====*/
+#partner .custom-row{
+   width: 80%;
+    margin: 0 auto;
+}
+#partner img{
+    cursor: pointer;
+}
+/*===== partner end ====*/
+
+/*===== team start ====*/
+
+#team{
+    background: #111111;
+    color: #fff;
+    text-align: center;
+}
+#team .headline{
+    margin-bottom: 5px;
+}
+
+
+#team p{
+    font-size: 18PX;
+    color: #555555;
+    letter-spacing: 2px;
+}
+#team .content{
+    position: relative;
+    overflow: hidden;
+    margin: 20px 0;
+}
+#team .content .image{
+    width: 80%;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+#team .content h5{
+    font-size: 18px;
+}
+#team .content h5 span{
+    font-size: 16px;
+    color: #ebebeb;
+}
+#team .content ul{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    margin-left: 50%;
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 48%;
+    margin-top: 20px;
+}
+#team .content ul li{
+    list-style: none;
+    float: left;
+    margin-right: 15px;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    padding: 6px;
+}
+#team .content ul li:last-child{
+    margin-right: 0;
+}
+#team .content ul li a{
+    display: block;
+    color: #fff;
+    font-size: 19px;
+}
+#team h6{
+    font-size: 22px;
+    color: #b9b9b9;
+    margin-top: 50px;
+    margin-bottom: 0;
+    line-height: 25px;
+    font-weight: normal;
+}
+/*===== team end ====*/
+
+#contact{
+    background: #7690C5;
+    color: #fff;
+}
+#contact .text .headline{
+    margin-bottom: 10px;
+}
+#contact p{
+    margin-bottom: 35px;
+}
+#contact .text .box{
+    position: relative;
+    overflow: hidden;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+#contact .text .icon{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+#contact .text .content{
+    margin-left: 25px;
+}
+#contact .text .content h6{
+    margin-bottom: 0;
+    font-size: 19px;
+}
+#contact .name {
+    width: 100%;
+    background: #fff;
+    border: none;
+    padding: 13px 20px;
+    margin-bottom: 20px;
+    color: #3c3b3b;
+}
+#contact textarea {
+    width: 100%;
+    height: 200px;
+    resize: none;
+    padding: 13px 20px;
+    color: #3c3b3b;
+}
+#contact .copyright.text-center {
+    margin-bottom: 0 !important;
+    margin-top: 8rem;
+}
+#contact button{
+    background: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-top: 23px;
+    cursor: pointer;
+}
+
+/*===== contact start ====*/
+
+
+/*===== contact end ====*/

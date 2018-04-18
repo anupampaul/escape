@@ -1,0 +1,148 @@
+
+
+@media screen and (max-width: 1198px){
+    #team .content ul{
+        width: 58%;
+    }
+}
+
+@media screen and (max-width: 990px){
+    .header .navbar-nav.mr-auto {
+        position: relative;
+        background: #251f3b;
+        padding: 40px 50px;
+        text-align: center;
+        z-index: 99;
+        margin-top: 20px;
+    }
+    #clients .image{
+        height: 65%;
+        margin-top: 60px;
+    }
+    #partner .image{
+        margin: 15px 0;
+    }
+    #contact .sign-up{
+        margin-top: 30px;
+    }
+}
+
+
+@media screen and (max-width: 760px){
+    #services .web img {
+        width: 70% !important;
+    }
+    
+    #services .web .text h1 {
+        font-size: 35px;
+    }
+    
+    #services .identity .text h1 {
+        font-size: 35px;
+    }
+    
+    #services .identity img{
+    width: 70% !important;
+    float: left;
+    margin-bottom: 50px;
+}
+    #clients .image {
+    height: auto;
+    width: 100%;
+    margin-top: 130px;
+}
+   #clients .text:before{
+    top: 50%;
+    left: -5px;
+    border-top: 1px solid #e4e4e4;
+    border-left: 1px solid #e4e4e4;
+    transform: rotate(-45deg) translateY(-50%);
+    -moz-transform: rotate(-45deg) translateY(-50%);
+    -webkit-transform: rotate(-45deg) translateY(-50%);
+    -ms-transform: rotate(-45deg) translateY(-50%);
+}
+    #clients .text  {
+        width: 90%;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    
+    #clients .text {
+    margin-top: 80px;
+}
+    #clients .text2::before {
+    
+        top: 320px;
+        right: -26px;
+        border: none;
+        border-bottom: 1px solid #e4e4e4;
+        border-right: 1px solid #e4e4e4;
+        transform: rotate(-45deg) translateY(-50%);
+        -moz-transform: rotate(-45deg) translateY(-50%);
+        -webkit-transform: rotate(-45deg) translateY(-50%);
+        -ms-transform: rotate(-45deg) translateY(-50%);
+    }
+    #team .content ul {
+        width: 170px;
+    }
+    
+    #team h6 {
+        font-size: 15px;
+    }
+    
+    .header .content button {
+        padding: 10px 10px;
+    }
+    
+    .header .content h1 {
+        font-size: 17px;
+    }
+    
+    .header .content h3 {
+        font-size: 25px;
+    }
+}
+
+
+@media screen and (max-width: 482px){
+    .header .main-nav.fixed-top{
+        padding: 0;
+    }
+    .header .content h1{
+        font-size: 40px;
+    }
+    .headline {
+    font-size: 35px;
+        margin-bottom: 30px;
+    }
+    
+    #clients .text2::before {
+        top: 320px;
+        left: 50%;
+        border: none;
+        border-bottom: 1px solid #e4e4e4;
+        border-left: 1px solid #e4e4e4;
+        transform: rotate(-45deg) translateX(-50%);
+        -moz-transform: rotate(-45deg) translateX(-50%);
+        -webkit-transform: rotate(-45deg) translateX(-50%);
+        -ms-transform: rotate(-45deg) translateX(-50%);
+    }
+    
+    #clients .text::before {
+        top: -25px;
+        left: 50%;
+        border: none;
+        border-top: 1px solid #e4e4e4;
+        border-right: 1px solid #e4e4e4;
+        transform: rotate(-45deg) translateX(-50%);
+        -moz-transform: rotate(-45deg) translateX(-50%);
+        -webkit-transform: rotate(-45deg) translateX(-50%);
+        -ms-transform: rotate(-45deg) translateX(-50%);
+    }
+    
+     #clients .image {
+        height: 70%;
+        width: 60%;
+        margin-left: 50px;
+    }
+}
