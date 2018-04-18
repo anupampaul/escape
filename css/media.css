@@ -31,6 +31,8 @@
 @media screen and (max-width: 760px){
     #services .web img {
         width: 70% !important;
+        float: left;
+        margin-top: 30px;
     }
     
     #services .web .text h1 {
@@ -141,8 +143,12 @@
     }
     
      #clients .image {
-        height: 70%;
+        height: 60%;
         width: 60%;
         margin-left: 50px;
+    }
+    
+    #clients p {
+        margin-bottom: 0px;
     }
 }
